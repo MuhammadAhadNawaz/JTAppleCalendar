@@ -14,10 +14,10 @@ A highly configurable Apple calendar control. Contains features like boundary da
 
   s.swift_version    = '5'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '15.0'
   s.tvos.deployment_target = '11.0'
 
   s.source_files = 'Sources/JTAppleCalendar/*.swift'
-  s.resource_bundles = {'JTAppleCalendar' => ['Sources/JTAppleCalendar/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'JTAppleCalendar' => ['PrivacyInfo.xcprivacy']}
 end
 
